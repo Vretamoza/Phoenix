@@ -2,7 +2,7 @@ defmodule HelloWeb.LayoutView do
   use HelloWeb, :view
 
 
-  def title() do
+  def title do
     "Awesome New Title!"
   end
   # Phoenix LiveDashboard is available only in development by default,
