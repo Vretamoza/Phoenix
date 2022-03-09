@@ -21,6 +21,9 @@ defmodule HelloWeb.Router do
     get "/", PageController, :index
     get "/redirect_test", PageController, :redirect_test
     get "/test", PageController, :test
+
+    get "/redirect_test", PageController, :redirect_test
+    get "/test", PageController, :test
     resources "/users", UserController
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
